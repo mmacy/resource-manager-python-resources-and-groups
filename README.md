@@ -27,7 +27,7 @@ using the Azure Python SDK.
 
 1. If you don't already have it, [install Python](https://www.python.org/downloads/).
 
-1. We recommend to use a [virtual environnement](https://docs.python.org/3/tutorial/venv.html) to run this example, but it's not mandatory. You can initialize a virtualenv this way:
+1. We recommend to use a [virtual environment](https://docs.python.org/3/tutorial/venv.html) to run this example, but it's not mandatory. You can initialize a virtualenv this way:
 
     ```
     pip install virtualenv
@@ -97,7 +97,7 @@ It also sets up a ResourceGroup object (resource_group_params) to be used as a p
 resource_group_params = {'location':'westus'}
 ```
 
-There are a couple of supporting functions (`print_item` and `print_properties`) that print a resource group and it's properties.
+There are a couple of supporting functions (`print_item` and `print_properties`) that print a resource group and its properties.
 With that set up, the sample lists all resource groups for your subscription, it performs these operations.
 
 <a id="list-groups"></a>
